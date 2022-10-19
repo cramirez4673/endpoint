@@ -19,9 +19,6 @@ describe("Wikipedia watchlist functionality", function () {
         // Uncomment to load Wikipedia site using cypress.env.json to login
         cy.visit(Cypress.env('wikiUrl'))
 
-         // Uncomment to use evn file
-        // cy.logIn(`${Cypress.env('userName')}`, `${Cypress.env('userPassword')}`)
-
         // Uncomment to use a fixture file testData.json to login
         // cy.visit(this.testData.url);
 
@@ -29,6 +26,9 @@ describe("Wikipedia watchlist functionality", function () {
 
         // Uncomment to use fixture file
         cy.logIn(this.testData.userName, this.testData.userPassword)       
+
+        // Uncomment to use evn file
+        // cy.logIn(`${Cypress.env('userName')}`, `${Cypress.env('userPassword')}`)
     });
 
     it("Test 1 - Search for Elivs Presley and add to watchlist", function () {
