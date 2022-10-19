@@ -16,7 +16,7 @@ Install Cypress via npm:
 
 cd /your/project/path
 
-npm install cypress --save-dev
+`npm install cypress --save-dev`
 
 ### 2. Initiate Cypress
 
