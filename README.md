@@ -2,7 +2,7 @@
 
 ## Prerequisites for mac
 
-You need to have the following installed to run the Wikipedia tests
+You need to have the following installed to run the Cypress framework and tests
 
 * Cypress
 * node.js
@@ -24,7 +24,7 @@ npm install cypress --save-dev
 
 ### 3. Open Cypress
 
-`npx cypress opend`
+`npx cypress open`
 
 ### 4. Install cypress-wait-until plugin
 
